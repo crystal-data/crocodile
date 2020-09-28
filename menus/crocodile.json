@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Generate Docstring",
+        "command": "crocodile:generate_docs"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "crocodile",
+          "submenu": [
+            {
+              "label": "Generate Docstring",
+              "command": "crocodile:generate_docs"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
