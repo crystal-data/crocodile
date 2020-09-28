@@ -1,14 +1,14 @@
 {
   "name": "crocodile",
   "main": "./lib/crocodile",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.0.1",
+  "description": "Docstrings for Crystal methods",
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": "crocodile:generate_docs"
   },
-  "repository": "https://github.com/atom/crocodile",
+  "repository": "https://github.com/crystal-data/crocodile",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
